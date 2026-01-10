@@ -1,3 +1,5 @@
+<img src="assets/TRA_Banner.png" alt="TheRightArchive Banner" style="border-radius: 16px; width: 100%; max-width: 100%; display: block; margin-bottom: 32px;" />
+
 # TheRightArchive
 
 TheRightArchive is a community-driven repository dedicated to preserving and sharing high-quality MacOS right-click extensions (Quick Actions). It serves as the underlying library for TheRightClick platform, ensuring that powerful automation tools are accessible to everyone.
