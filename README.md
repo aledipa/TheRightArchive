@@ -6,11 +6,11 @@ TheRightArchive is a community-driven repository dedicated to preserving and sha
 
 ## Mission
 
-Our goal is to simplify MacOS automation. By centralizing scattered workflows into a single, organized repository, we make it easier for users to find the tools they need and for developers to share their creations with a broader audience.
+Our goal is to simplify MacOS automation. We make it easier for users to find the tools they need and for developers to share their creations with a broader audience.
 
 ## How It Works
 
-This repository hosts raw .workflow bundles. These are standard MacOS Automator workflows that can be installed as Quick Actions, Services, or Applications.
+This repository hosts raw .workflow bundles. These are standard MacOS Automator workflows that can be installed as Quick Actions, Services, or Applications. Every package is released and maintained in its own dedicated branch.
 
 ### Categories
 
@@ -45,4 +45,4 @@ While we strive to curate safe and functional workflows, all extensions are prov
 
 ## License
 
-This repository is open source. Content is available under the GNU General Public License v3.0.
+This repository is open source. Content is available under the MIT License. By publishing an extension on TheRightClick platform, you agree that it will be published on TheRightArchive under the MIT license.
