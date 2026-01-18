@@ -10,7 +10,7 @@ Our goal is to simplify MacOS automation. We make it easier for users to find th
 
 ## How It Works
 
-This repository hosts raw .workflow bundles. These are standard MacOS Automator workflows that can be installed as Quick Actions, Services, or Applications. Every package is released and maintained in its own dedicated branch.
+This repository hosts raw `.workflow` bundles. These are standard MacOS Automator workflows that can be installed as Quick Actions, Services, or Applications. Every package is released and maintained in its own dedicated branch.
 
 ### Categories
 
