@@ -5,6 +5,6 @@
 <br clear='all' />
 
 ## Description
-
+A memory cleaner that purges the RAM when your Mac is sluggish because apps are hogging "Inactive Memory".
 
 ## Screenshots
