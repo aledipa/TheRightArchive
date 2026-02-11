@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplicationBuild</key>
+	<string>533</string>
+	<key>AMApplicationVersion</key>
+	<string>2.10</string>
+	<key>AMDocumentVersion</key>
+	<string>2</string>
+	<key>actions</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run AppleScript.action</string>
+				<key>ActionName</key>
+				<string>Esegui AppleScript</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>source</key>
+					<string>on run {input, parameters}    try        do shell script "purge" with administrator privileges        display notification "RAM successfully purged." with title "System Maintenance"    on error        display notification "Purge cancelled or failed." with title "System Maintenance"    end try    return inputend run</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.RunScript</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunScriptAction</string>
+				<key>InputUUID</key>
+				<string>1681B33E-4883-4BC8-BDDF-4D81294615D5</string>
+				<key>Keywords</key>
+				<array>
+					<string>Esegui</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>DC4A6890-C018-47E0-B04F-92FAA9BAA959</string>
+				<key>UUID</key>
+				<string>1DE54978-1945-4EDD-B1CC-672F80EAF6BE</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>on run {input, parameters}
+	
+	(* Your script goes here *)
+	
+	return input
+end run</string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<integer>1</integer>
+				<key>location</key>
+				<string>380.500000:368.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>connectors</key>
+	<dict/>
+	<key>workflowMetaData</key>
+	<dict>
+		<key>applicationBundleIDsByPath</key>
+		<dict/>
+		<key>applicationPaths</key>
+		<array/>
+		<key>customImageFileData</key>
+		<data>
+		PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tIFVw
+		bG9hZGVkIHRvOiBTVkcgUmVwbywgd3d3LnN2Z3JlcG8uY29tLCBHZW5lcmF0
+		b3I6IFNWRyBSZXBvIE1peGVyIFRvb2xzIC0tPg0KPHN2ZyBmaWxsPSIjMDAw
+		MDAwIiB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAg
+		MCAyNTYgMjU2IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmci
+		Pg0KICAgIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJl
+		dmVub2RkIiBkPSJNMjIzLjk3NyA2My42OWE1Ljk2NyA1Ljk2NyAwIDAgMC0y
+		LjI5NS0uNDQ2bC4wMDEtLjAwMS0xODguODc3Ljc3YTYuMDEzIDYuMDEzIDAg
+		MCAwLTUuOTg0IDYuMDI0bC4yMjYgOTguODZjLjAwOCAzLjMxNCAyLjY5OSA2
+		LjAxNSA2LjAxIDYuMDM0bDE1LjMyNi4wODd2MTAuNjMzYzAgMy4zMTUgMi42
+		ODMgNi4wMDcgNS45OTMgNi4wMDdoMjUuNDcxczYuMzE5LTE1LjM4IDIzLjYy
+		LTE1LjM4YzE3LjMwMSAwIDIzLjc4MyAxNS4zOCAyMy43ODMgMTUuMzhoNzQu
+		MDMyYTYuMDAzIDYuMDAzIDAgMCAwIDUuOTk5LTYuMDA4di04LjE2aDE0LjM4
+		OGE2LjAwNCA2LjAwNCAwIDAgMCA2LjAxLTYuMDAzVjY5LjIyMmE1Ljk3NiA1
+		Ljk3NiAwIDAgMC0xLjc1NS00LjIzNyA1Ljk3OCA1Ljk3OCAwIDAgMC0xLjk0
+		OC0xLjI5NHpNNDIuNTg4IDgwLjU4NkEyLjAwMiAyLjAwMiAwIDAgMSA0NC4w
+		MDIgODB2LjAwMWg0NEExLjk5NSAxLjk5NSAwIDAgMSA5MCA4Mi4wMDJsLS4x
+		MyA2OS45ODVzLTQuMTI3LjEzNy03LjY2NyAyLjQ4Uzc3Ljc2IDE2MCA3Ny43
+		NiAxNjBINDJWODEuOTk3Yy4wMDEtLjUzLjIxMy0xLjAzOC41ODgtMS40MTJ6
+		bTYyLjAwMS0uMDAxYTIuMDAxIDIuMDAxIDAgMCAxIDEuNDEzLS41ODRoNDRh
+		MS45OTkgMS45OTkgMCAwIDEgMS44NDcgMS4yMzJjLjEuMjQzLjE1MS41MDMu
+		MTUxLjc2NWwtLjE0MSA3Ni4wMDZhMi4wMSAyLjAxIDAgMCAxLTIuMDEzIDEu
+		OTk3aC0yMC4xODlzLTQuODI3LTQuNDU3LTEwLjYyMi02LjQ3MmMtNS43OTUt
+		Mi4wMTQtMTUuMDM1LTIuNDQ3LTE1LjAzNS0yLjQ0N1Y4MS45OTRjLjAwMi0u
+		NTMuMjE0LTEuMDM3LjU4OS0xLjQxem02MS45OTkgMGEyLjAwMiAyLjAwMiAw
+		IDAgMSAxLjQxNC0uNTg0aDQ0YTEuOTk5IDEuOTk5IDAgMCAxIDEuODQ3IDEu
+		MjMyYy4xLjI0My4xNTEuNTAzLjE1MS43NjVsLS4xNDEgNzYuMDA2QTIuMDA0
+		IDIuMDA0IDAgMCAxIDIxMS44NiAxNjBIMTY2VjgxLjk5N2MuMDAxLS41My4y
+		MTMtMS4wMzguNTg4LTEuNDEyeiIvPg0KPC9zdmc+
+		</data>
+		<key>customImageFileExtension</key>
+		<string>svg</string>
+		<key>inputTypeIdentifier</key>
+		<string>com.apple.Automator.nothing</string>
+		<key>outputTypeIdentifier</key>
+		<string>com.apple.Automator.nothing</string>
+		<key>presentationMode</key>
+		<integer>11</integer>
+		<key>processesInput</key>
+		<false/>
+		<key>serviceInputTypeIdentifier</key>
+		<string>com.apple.Automator.nothing</string>
+		<key>serviceOutputTypeIdentifier</key>
+		<string>com.apple.Automator.nothing</string>
+		<key>serviceProcessesInput</key>
+		<false/>
+		<key>useAutomaticInputType</key>
+		<false/>
+		<key>workflowTypeIdentifier</key>
+		<string>com.apple.Automator.servicesMenu</string>
+	</dict>
+</dict>
+</plist>
