@@ -2,7 +2,7 @@
 
 # TheRightArchive
 
-TheRightArchive is a community-driven repository dedicated to preserving and sharing high-quality MacOS right-click extensions (Quick Actions). It serves as the underlying library for TheRightClick platform, ensuring that powerful automation tools are accessible to everyone.
+TheRightArchive is a community-driven repository dedicated to preserving and sharing high-quality MacOS right-click extensions (Quick Actions). It serves as the underlying library for [TheRightClick platform](https://www.therightclick.click/), ensuring that powerful automation tools are accessible to everyone.
 
 ## Mission
 
@@ -30,7 +30,7 @@ The platform automatically handles validation, packaging, and categorization, ma
 
 ### How to Publish
 
-1. Access TheRightClick application.
+1. Access [TheRightClick](https://www.therightclick.click/) application.
 2. Navigate to the "Create" section.
 3. Upload your .workflow file and fill in the required details.
 4. Your extension will be automatically added to TheRightArchive upon approval.
@@ -45,4 +45,4 @@ While we strive to curate safe and functional workflows, all extensions are prov
 
 ## License
 
-This repository is open source. Content is available under the MIT License. By publishing an extension on TheRightClick platform, you agree that it will be published on TheRightArchive under the MIT license.
+This repository is open source. Content is available under the MIT License. By publishing an extension on [TheRightClick platform](https://www.therightclick.click/), you agree that it will be published on TheRightArchive under the MIT license.
