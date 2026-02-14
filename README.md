@@ -5,6 +5,10 @@
 <br clear='all' />
 
 ## Description
-
+Sorts alphabetically the highlighted lines of text.
 
 ## Screenshots
+![carbon_2_Ud3PDGLFyP.jpeg](assets/carbon_2_Ud3PDGLFyP.jpeg)
+
+![carbon_JSNeLDdDnv.jpeg](assets/carbon_JSNeLDdDnv.jpeg)
+
